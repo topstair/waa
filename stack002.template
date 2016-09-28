@@ -15,7 +15,7 @@ scripts to install the packages and files necessary to deploy the Apache web ser
     "InstanceType" : {
       "Description" : "WebServer EC2 instance type",
       "Type" : "String",
-      "Default" : "t2.nano",
+      "Default" : "t2.micro",
       "AllowedValues" : [ "t2.nano", "t2.micro", "t2.small", "m4.large"],
       "ConstraintDescription" : "Must be a valid EC2 instance type"
     },
